@@ -1,0 +1,36 @@
+{
+  "name": "mech-spread-sheet",
+  "namesub": "spread-sheet",
+  "version": "0.0.1",
+  "description": "Online spread sheet",
+  "main": "./dist/spread-sheet.js",
+  "scripts": {
+    "test": "gulp"
+  },
+  "README": "Adding or removing from source requires you to restart gulp.",
+  "source": [
+    "src/util/header.js",
+    "src/spread-sheet.js",
+    "src/util/footer.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mechanismsjs/mech-spread-sheet.git"
+  },
+  "keywords": [
+    "mechanisms",
+    "spreadsheet"
+  ],
+  "author": "erichosick@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mechanismsjs/mech-spread-sheet/issues"
+  },
+  "homepage": "https://github.com/mechanismsjs/mech-spread-sheet",
+  "devDependencies": {},
+  "dependencies": {
+    "mech-core": "^0.2.2",
+    "mech-scope-cell": "^0.1.9",
+    "mech-web": "^0.1.6"
+  }
+}

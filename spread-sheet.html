@@ -45,7 +45,8 @@
     m.cell("C:3", 6);
 
     m.cell("A:1000","A:1"); // Active cell
-    m.cell("A:1001",m.propSet('value', m.e$('equation'), m.propGet('value', m.cellGet("A:1000"))).go);
+    debugger;
+    m.cell("A:1001",m.propSet('value', m.e$('equation'), m.cellGet(m.cellGet("A:1000"))).go);
     m.propSet('value', m.e$('A:1'), m.cellGet('A:1')).go;
   </script>
 </html>

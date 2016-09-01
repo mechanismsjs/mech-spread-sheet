@@ -29,8 +29,8 @@
   "homepage": "https://github.com/mechanismsjs/mech-spread-sheet",
   "devDependencies": {},
   "dependencies": {
-    "mech-core": "^0.2.2",
-    "mech-scope-cell": "^0.1.9",
-    "mech-web": "^0.1.6"
+    "mech-core": "*",
+    "mech-scope-cell": "*",
+    "mech-web": "*"
   }
 }

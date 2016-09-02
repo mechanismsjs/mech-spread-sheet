@@ -30,6 +30,7 @@
   "devDependencies": {},
   "dependencies": {
     "mech-core": "*",
+    "mech-math": "*",
     "mech-scope-cell": "*",
     "mech-web": "*"
   }
